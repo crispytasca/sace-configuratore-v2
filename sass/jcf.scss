@@ -1,0 +1,76 @@
+@import "variables";
+/* scrollbars */
+.jcf-scrollable-wrapper {
+  box-sizing: content-box;
+  position: relative;
+}
+.jcf-scrollbar-vertical {
+  position: absolute;
+  cursor: default;
+  background-color: transparent;
+  width: 4px;
+  bottom: 0;
+  right: 0;
+  top: 0;
+}
+.jcf-scrollbar-vertical .jcf-scrollbar-dec,
+.jcf-scrollbar-vertical .jcf-scrollbar-inc {
+  background-color: transparent;
+  height: 5px;
+  width: 14px;
+  left: 0;
+  top: 0;
+}
+.jcf-scrollbar-vertical .jcf-scrollbar-inc {
+  top: auto;
+  bottom: 0;
+}
+.jcf-scrollbar-vertical .jcf-scrollbar-handle {
+  background-color: $colorGray;
+  height: 1px;
+  width: 4px;
+  right: 7px;
+  border-radius: 4px;
+}
+.jcf-scrollbar-horizontal {
+  position: absolute;
+  background: $colorGray;
+  right: auto;
+  top: auto;
+  left: 0;
+  bottom: 0;
+  width: 1px;
+  height: 6px;
+  border-radius: 4px;
+}
+.jcf-scrollbar-horizontal .jcf-scrollbar-dec,
+.jcf-scrollbar-horizontal .jcf-scrollbar-inc {
+  display: inline-block;
+  vertical-align: top;
+  overflow: hidden;
+  background: #bbb;
+  height: 0;
+  width: 0;
+}
+.jcf-scrollbar-horizontal .jcf-scrollbar-inc {
+  left: auto;
+  right: 0;
+}
+.jcf-scrollbar-horizontal .jcf-scrollbar-slider {
+  display: inline-block;
+  position: relative;
+  height: 14px;
+}
+.jcf-scrollbar-horizontal .jcf-scrollbar-handle {
+  position: absolute;
+  background: $colorGray;
+  height: 6px;
+  border-radius: 4px;
+}
+.jcf-scrollbar.jcf-inactive .jcf-scrollbar-handle {
+  visibility: hidden;
+}
+.jcf-scrollbar.jcf-inactive .jcf-scrollbar-dec,
+.jcf-scrollbar.jcf-inactive .jcf-scrollbar-inc {
+  background: #e3e3e3;
+}

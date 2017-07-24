@@ -1,0 +1,86 @@
+.text-big {
+  font-size: 18px;
+  line-height: 1.56;
+}
+.text-big-bold {
+  font: 18px/1.3 $fontMainBold;
+}
+.text-medium-big {
+  font-size: 16px;
+  line-height: 1.75;
+}
+.text-medium-book {
+  font: 16px/1.3 $fontMainBook;
+}
+.text-medium-bold {
+  font: 16px/1.3 $fontMainBold;
+}
+.text-medium-small-book {
+  font: 15px/1.3 $fontMainBook;
+}
+.text-medium {
+  font-size: 15px;
+  line-height: 1.87;
+}
+.text-medium-small {
+  font-size: 14px;
+  line-height: 2;
+}
+.text-small {
+  font-size: 12px;
+  line-height: 1.4;
+}
+.text-small-extra {
+  font-size: 10px;
+  line-height: 1.6;
+}
+.link-big-bold-dot, .link-big, .link-small-bold, .link-small {
+  color: $colorNavy;
+  text-decoration: none;
+  &:hover {
+    color: $colorNavy;
+    text-decoration: underline;
+  }
+}
+.link-big-bold-dot {
+  font: 18px/1.3 $fontMainBold;
+  &:before {
+    content: '';
+    display: inline-block;
+    vertical-align: top;
+    width: 6px;
+    height: 6px;
+    margin: 8px 10px 0 0;
+    border-radius: 50%;
+    background-color: $colorNavy;
+  }
+  &.color-red {
+    color: $colorRed;
+    &:before {
+      background-color: $colorRed;
+    }
+  }
+  &.color-white {
+    color: $colorWhite;
+    &:before {
+      background-color: $colorRed;
+    }
+  }
+}
+.link-big {
+  font: 18px/1.3 $fontMainBold;
+  &.color-white {
+    color: $colorWhite;
+  }
+  &.color-red {
+    color: $colorRed;
+  }
+}
+.link-small-bold {
+  font: 12px/1.3 $fontMainBold;
+}
+.link-small {
+  font-size: 12px;
+  line-height: 1.5;
+  color: $colorNavy;
+}

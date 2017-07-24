@@ -1,0 +1,56 @@
+body.controparte-page {
+    #middle {
+        .top-block {
+            .top-description {
+                h1 {
+                    font-size: 56px;
+                    font-weight: 500;
+                }
+            }
+        }
+        #factoring-form {
+            h2 {
+                max-width: 660px;
+            }
+            .jcf-select {
+                margin-top: 0;
+            }
+            .btn-next,
+            span.btn-red.next-slide,
+            input[type="submit"].btn-red.next-slide {
+                opacity: 0;
+                @include transition(all .8s ease-in-out);
+                &.enabled {
+                    cursor: pointer;
+                    opacity: 1;
+                    @include transition(all .8s ease-in-out);
+                }
+            }
+            .privacy-text {
+                margin-bottom: 30px;
+                font-size: 10px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: $screen-md-min) {
+    body.controparte-page {
+        #middle {
+            .top-block {
+                .top-description {
+                    h1 {
+                        font-size: 36px;
+                        font-weight: 500;
+                    }
+                }
+            }
+            #factoring-form {
+                .btn-next,
+                input[type="submit"].btn-red.next-slide {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}

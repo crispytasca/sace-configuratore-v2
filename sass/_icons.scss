@@ -1,0 +1,52 @@
+.i-methods, .i-terms, .i-country, .i-industry, .i-shipment, .i-duration, .i-ammount {
+  &:before {
+    content: '';
+    display: inline-block;
+    vertical-align: top;
+    width: 16px;
+    height: 16px;
+    margin-right: 8px;
+  }
+}
+.i-methods {
+  &:before {
+    background: url('../images/ModalitaConsegna.svg') no-repeat;
+    background-size: auto 100%;
+  }
+}
+.i-terms {
+  &:before {
+    background: url('../images/Modulo.svg') no-repeat;
+    background-size: auto 100%;
+  }
+}
+.i-country {
+  &:before {
+    background: url('../images/Paese.svg') no-repeat;
+    background-size: auto 100%;
+  }
+}
+.i-industry {
+  &:before {
+    background: url('../images/Settore.svg') no-repeat;
+    background-size: auto 100%;
+  }
+}
+.i-shipment {
+  &:before {
+    background: url('../images/Calendario.svg') no-repeat;
+    background-size: auto 100%;
+  }
+}
+.i-duration {
+  &:before {
+    background: url('../images/Durata.svg') no-repeat;
+    background-size: auto 100%;
+  }
+}
+.i-ammount {
+  &:before {
+    background: url('../images/ImportoContratto.svg') no-repeat;
+    background-size: auto 100%;
+  }
+}

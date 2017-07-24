@@ -1,0 +1,191 @@
+body.landing-page {
+    section#middle {
+        padding-top: 0;
+        .top-block {
+            position: relative;
+            height: calc(100vh - 320px);
+            .top-description {
+                margin-top: 20vh;
+                h1 {
+                    font-size: 56px;
+                    font-weight: 500;
+                    color: $colorRedDark;
+                }
+                .text-big {
+                    color: $colorBrown;
+                    margin-left: -15px;
+                }
+            }
+        }
+        .video-block {
+            height: 270px;
+            position: relative;
+            margin: 0 auto;
+            max-width: 100%;
+            @include transition(max-width .8s ease-in-out);
+            .video-container {
+                overflow: hidden;
+                margin: 0 auto;
+                padding: 97px 25px 25px 25px;
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                .appear {
+                    position: relative;
+                    .interactive-video {
+                        width: auto;
+                        height: calc(100vh - 80px);
+                        position: absolute;
+                        top: 50%;
+                        left: 50%;
+                        transform: translate(-50%, -50%);
+                    }
+                }
+                .discover-products {
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    height: 100%;
+                    width: 100%;
+                    padding: 97px 25px 25px 25px;
+                    .discover-items {
+                        width: 100%;
+                        max-width: 100%;
+                        height: 100%;
+                        background: transparent;
+                        .discover-background {
+                            position: absolute;
+                            top: 0;
+                            left: 0;
+                            height: 100%;
+                            width: 100%;
+                            opacity: 0;
+                            @include transition(all .8s ease-in-out);
+                            &.show {
+                                opacity: 1;
+                                @include transition(all .8s ease-in-out);
+                            }
+                        }
+                        .discover-item {
+                            height: 100%;
+                            opacity: 0;
+                            transform: translateX(-100%);
+                            @include transition(all .8s ease-in-out);
+                            .discover-info {
+                                height: 100%;
+                                .discover-info-inner {}
+                                .btn-plus {
+                                    background: $colorRed;
+                                    border: none;
+                                    &::before {
+                                        background-color: $colorWhite;
+                                    }
+                                    &::after {
+                                        background-color: $colorWhite;
+                                    }
+                                }
+                            }
+                            &::after {
+                                height: 100%;
+                            }
+                            &::before {
+                                background: transparent;
+                            }
+                            &.show {
+                                opacity: 1;
+                                transform: translateX(0);
+                                @include transition(all .5s ease-in-out);
+                            }
+                            &.fade-out {
+                                opacity: 0;
+                                @include transition(all .5s ease-in-out);
+                            }
+                        }
+                    }
+                }
+            }
+            &.shrinked {
+                max-width: $wrapperWidth;
+                @include transition(max-width .8s ease-in-out);
+            }
+        }
+    }
+}
+
+@media screen and (max-width: $screen-md-max) {
+    body.landing-page {
+        section#middle {
+            .top-block {
+                position: relative;
+                height: auto;
+                padding-bottom: 120px;
+                .top-description {
+                    margin-top: 180px;
+                    h1 {
+                        font-size: 36px;
+                        color: $colorRedDark;
+                    }
+                    .text-big {
+                        color: $colorBrown;
+                        margin-left: -15px;
+                    }
+                }
+            }
+            .video-block {
+                height: auto;
+                &.shrinked {
+                    width: 100%;
+                }
+                .video-container {
+                    padding: 0;
+                    position: relative;
+                    .appear {
+                        overflow: initial;
+                        width: 100%;
+                        .interactive-video {
+                            top: 0;
+                            left: 0;
+                            transform: translate(0, 0);
+                        }
+                    }
+                    .discover-products {
+                        position: relative;
+                        padding: 0;
+                        .discover-items {
+                            z-index: 1;
+                            &::after {
+                                z-index: -1;
+                                display: none;
+                            }
+                            .discover-item {
+                                opacity: 1;
+                                width: 100%;
+                                height: 100px;
+                                float: none;
+                                transform: translateX(0);
+                                border-bottom: 1px solid $colorWhite;
+                                z-index: 1;
+                                &:last-child {
+                                    border-bottom: none;
+                                }
+                                &::after {
+                                    display: none;
+                                    background: transparent;
+                                }
+                                &::before {
+                                    background-color: $colorRedDark;
+                                    opacity: .4;
+                                }
+                                &.active {
+                                    height: 400px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

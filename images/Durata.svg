@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+    <title>Icon/Durata</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icon/Durata">
+            <path d="M4.5,20.5 C4.5,29.336556 11.663444,36.5 20.5,36.5 C29.336556,36.5 36.5,29.336556 36.5,20.5 C36.5,11.663444 29.336556,4.5 20.5,4.5 L20.5,7.5 C27.6797017,7.5 33.5,13.3202983 33.5,20.5 C33.5,27.6797017 27.6797017,33.5 20.5,33.5 C13.3202983,33.5 7.5,27.6797017 7.5,20.5 L4.5,20.5 Z" id="Oval-5" fill="#001F5B" fill-rule="nonzero"></path>
+            <path d="M28.8905877,27.6940807 C30.5373221,25.7668128 31.5316625,23.265358 31.5316625,20.5316625 C31.5316625,14.4390436 26.592619,9.5 20.5,9.5 C20.5,12.9305616 20.5,19.1527047 20.5,19.1527047 C20.5,19.1527047 26.0158313,24.5964908 28.8905877,27.6940807 Z" id="Oval" fill="#DD0031"></path>
+            <polygon id="Triangle" fill="#001F5B" points="6.5 12 12 21 1 21"></polygon>
+        </g>
+    </g>
+</svg>

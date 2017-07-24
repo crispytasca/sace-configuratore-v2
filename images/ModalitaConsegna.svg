@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+    <title>Icon/ModalitaConsegna</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icon/ModalitaConsegna" fill-rule="nonzero">
+            <g id="Group-2" transform="translate(4.000000, 2.000000)">
+                <polygon id="Path-2" fill="#DD0031" points="31.9726562 9.51586533 31.9726562 6.47875977 18.1861453 0.279279728 0.0212402344 6.35630694 0.0212402344 9.51586533 17.9799805 3.48632813"></polygon>
+                <path d="M3,10.6708078 L3,10.6708078 Z M3,26.368601 L13.8024902,30.3152248 L13.8024902,14.6174316 L3,10.6708078 L3,26.368601 Z M0,6.4137931 L15.4482759,11.9310345 L15.4482759,34 L0,28.4827586 L0,6.4137931 Z" id="Rectangle-5" fill="#001F5B"></path>
+                <path d="M16.8068848,14.5974121 L16.8068848,30.412244 L29,26.2380448 L29,10.4232128 L16.8068848,14.5974121 Z M32,6.4137931 L32,28.4827586 L15.3110352,33.9758301 L15.3110352,11.8354492 L32,6.4137931 Z" id="Rectangle-5-Copy" fill="#001F5B"></path>
+            </g>
+        </g>
+    </g>
+</svg>

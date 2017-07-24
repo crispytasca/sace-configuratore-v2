@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+    <title>Icon/Calendario</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icon/Calendario">
+            <path d="M7,32 L33,32 L33,11 L7,11 L7,32 Z M4,8 L36,8 L36,35 L4,35 L4,8 Z" id="Rectangle-2" fill="#001F5B" fill-rule="nonzero"></path>
+            <polygon id="Line" fill="#001F5B" fill-rule="nonzero" points="14 11 14 2 11 2 11 11"></polygon>
+            <polygon id="Line-Copy" fill="#001F5B" fill-rule="nonzero" points="30 11 30 2 27 2 27 11"></polygon>
+            <rect id="Rectangle-4" fill="#DD0031" x="11" y="26" width="3" height="3"></rect>
+            <rect id="Rectangle-4-Copy" fill="#DD0031" x="11" y="20" width="3" height="3"></rect>
+            <rect id="Rectangle-4-Copy-2" fill="#001F5B" x="6" y="14" width="30" height="3"></rect>
+            <rect id="Rectangle-4-Copy-5" fill="#DD0031" x="19" y="26" width="3" height="3"></rect>
+            <rect id="Rectangle-4-Copy-4" fill="#DD0031" x="19" y="20" width="3" height="3"></rect>
+            <rect id="Rectangle-4-Copy-8" fill="#DD0031" x="27" y="26" width="3" height="3"></rect>
+            <rect id="Rectangle-4-Copy-7" fill="#DD0031" x="27" y="20" width="3" height="3"></rect>
+        </g>
+    </g>
+</svg>

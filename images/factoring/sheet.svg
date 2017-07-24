@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="85px" height="90px" viewBox="0 0 85 90" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+    <title>icona</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="65" height="79"></rect>
+    </defs>
+    <g id="Factoring" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="SACE-Factoring-step01" transform="translate(-604.000000, -1420.000000)">
+            <g id="Imprese-ci-hanno-scelto-Copy" transform="translate(0.000000, 1368.000000)">
+                <g id="B" transform="translate(528.000000, 52.000000)">
+                    <g id="icona" transform="translate(76.000000, 0.000000)">
+                        <g id="Rectangle-6">
+                            <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                            <rect stroke="#001F5B" stroke-width="4" x="2" y="2" width="61" height="75"></rect>
+                        </g>
+                        <rect id="Rectangle-7" fill="#001F5B" x="11" y="13" width="42" height="4"></rect>
+                        <rect id="Rectangle-7-Copy" fill="#001F5B" x="11" y="23" width="42" height="4"></rect>
+                        <rect id="Rectangle-7-Copy-2" fill="#001F5B" x="11" y="33" width="42" height="4"></rect>
+                        <rect id="Rectangle-7-Copy-3" fill="#001F5B" x="11" y="43" width="42" height="4"></rect>
+                        <circle id="Oval" fill="#FFFFFF" cx="62.5" cy="67.5" r="22.5"></circle>
+                        <text id="€" font-family="CircularStd-Bold, Circular Std" font-size="40" font-weight="bold" fill="#DD0031">
+                            <tspan x="45" y="79">€</tspan>
+                        </text>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

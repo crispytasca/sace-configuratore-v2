@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="38px" height="38px" viewBox="0 0 38 38" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>BackToTop</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="0---Landing" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="SACE-Landing-03c" transform="translate(-973.000000, -4010.000000)">
+            <g id="Intercom" transform="translate(973.000000, 4010.000000)">
+                <g id="BackToTop">
+                    <circle id="Oval-2" fill="#DD0031" cx="19" cy="19" r="19"></circle>
+                    <path d="M22.8869318,17.6694174 L23.0585047,17.4978445 L15.9874369,10.4267767 L14.5732233,11.8409903 L20.4016504,17.6694174 L14.5732233,23.4978445 L15.9874369,24.9120581 L23.0585047,17.8409903 L22.8869318,17.6694174 Z" id="Freccia" fill="#FFFFFF" transform="translate(18.815864, 17.669417) rotate(-90.000000) translate(-18.815864, -17.669417) "></path>
+                    <g id="Group-2" transform="translate(10.000000, 9.000000)">
+                        <path d="M0,1.88958363 C0,0.845995408 0.844034582,0 1.89229444,0 L16.1077056,0 C17.1527909,0 18,0.850428784 18,1.88958363 L18,18.1363636 L1.89229444,18.1363636 C0.847209077,18.1363636 0,17.2859349 0,16.24678 L0,1.88958363 Z" id="Rectangle" fill="#FFFFFF"></path>
+                        <polygon id="Rectangle-2" fill="#FFFFFF" points="11.3684211 15.2727273 18 15.2727273 18 21 11.3684211 18.1363636"></polygon>
+                        <path d="M2.38347016,13.0887358 C4.48774157,14.2452393 6.66838265,14.7954545 9,14.7954545 C11.3505939,14.7954545 13.7373047,14.1867454 15.6666505,13.0692725" id="Oval-9" stroke="#DD0031" stroke-width="0.947368421"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

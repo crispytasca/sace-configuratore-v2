@@ -1,0 +1,67 @@
+body.controparte-page {
+    #middle {
+        padding-top: 0;
+        .top-block {
+            .top-description {
+                h1 {
+                    font-size: 56px;
+                    font-weight: 500;
+                }
+            }
+        }
+        .counterpart-form-block {
+            h2 {
+                max-width: 660px;
+            }
+            .counterpart-step-3,
+            .counterpart-step-3 {
+                height: auto !important;
+            }
+            .privacy-text {
+                margin-bottom: 30px;
+                font-size: 10px;
+            }
+            .btn-next,
+            input[type="submit"].btn-red.next-slide {
+                opacity: 0;
+                max-width: 0;
+                @include transition(all .8s ease-in-out);
+                &.enabled {
+                    cursor: pointer;
+                    opacity: 1;
+                    max-width: 200px;
+                    @include transition(all .8s ease-in-out);
+                }
+            }
+            #counterpart-table {
+                .collapse {
+                    @include transition(all .8s ease-in-out);
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: $screen-xs-max) {
+    body.controparte-page {
+        #middle {
+            .top-block {
+                .top-description {
+                    h1 {
+                        font-size: 36px;
+                        font-weight: 500;
+                    }
+                }
+            }
+            .counterpart-form-block.full-page {
+                min-height: auto;
+                &>*:first-child {
+                    position: initial;
+                    top: auto;
+                    left: auto;
+                    transform: translate(0, 0);
+                }
+            }
+        }
+    }
+}

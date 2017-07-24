@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="42px" height="42px" viewBox="0 0 42 42" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+    <title>Icon/Activity/offerte aggiuntive</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Assicurazione" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="SACE-Config-04" transform="translate(-43.000000, -403.000000)">
+            <g id="Menu" transform="translate(0.000000, 65.000000)">
+                <g id="Group" transform="translate(11.000000, 146.000000)">
+                    <g id="3" transform="translate(1.000000, 192.000000)">
+                        <g id="Icon/Activity/offerte-aggiuntive" transform="translate(31.000000, 0.000000)">
+                            <circle id="Oval-8" fill="#DD0031" cx="21" cy="21" r="21"></circle>
+                            <polygon id="Rectangle" fill="#FFFFFF" fill-rule="nonzero" points="28.5 21.09375 30.75 21.09375 30.75 32.25 9.75 32.25 9.75 11.25 21 11.25 21 13.5 12 13.5 12 30 28.5 30"></polygon>
+                            <rect id="Rectangle-8-Copy-3" fill="#FFFFFF" x="23.25" y="11.25" width="12.75" height="2.25"></rect>
+                            <rect id="Rectangle-8-Copy-4" fill="#FFFFFF" transform="translate(29.625000, 12.375000) rotate(90.000000) translate(-29.625000, -12.375000) " x="23.25" y="11.25" width="12.75" height="2.25"></rect>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

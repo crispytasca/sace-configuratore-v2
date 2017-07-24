@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="42px" height="42px" viewBox="0 0 42 42" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 45 (43475) - http://www.bohemiancoding.com/sketch -->
+    <title>Icon/Activity/Inserisci dati</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="2---Assicurazione" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="SACE-Assicurazione-01a" transform="translate(-254.000000, -219.000000)">
+            <g id="Menu" transform="translate(221.000000, 216.000000)">
+                <g id="Group">
+                    <g id="1" transform="translate(25.000000, 0.000000)">
+                        <g id="Icon/Activity/Inserisci-dati" transform="translate(5.000000, 0.000000)">
+                            <g id="Group-2" transform="translate(3.000000, 3.000000)">
+                                <circle id="Oval-8" fill="#FFFFFF" cx="21" cy="21" r="21"></circle>
+                                <rect id="Rectangle-8" fill="#DD0031" x="8.25" y="30.75" width="24.75" height="2.25"></rect>
+                                <path d="M17.4687674,24.3187119 L27.136587,7.57355716 L24.5385107,6.07355716 L14.8320576,22.8856272 L14.9159866,25.4845169 L17.4687674,24.3187119 Z M23.7149536,3 L30.2101441,6.75 L19.0576989,26.0666017 L12.7762512,28.9352161 L12.5625084,22.3166017 L23.7149536,3 Z" id="Rectangle" fill="#006E62" fill-rule="nonzero"></path>
+                                <rect id="Rectangle-9" fill="#006E62" transform="translate(23.835817, 9.786779) rotate(30.000000) translate(-23.835817, -9.786779) " x="21.2108167" y="8.66177858" width="5.25" height="2.25"></rect>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

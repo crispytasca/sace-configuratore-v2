@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="42px" height="42px" viewBox="0 0 42 42" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 45 (43475) - http://www.bohemiancoding.com/sketch -->
+    <title>Icon/Activity/La nostra proposta</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="2---Assicurazione" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="SACE-Assicurazione-01a" transform="translate(-251.000000, -603.000000)">
+            <g id="Menu" transform="translate(221.000000, 216.000000)">
+                <g id="Group">
+                    <g id="5" transform="translate(10.000000, 384.000000)">
+                        <g id="Icon/Activity/conferma-invio" transform="translate(17.000000, 0.000000)">
+                            <circle id="Oval-8" fill="#FFFFFF" fill-rule="evenodd" cx="24" cy="24" r="21"></circle>
+                            <path d="M13.5,16.5 L13.5,30 L35.25,30 L35.25,16.5 L13.5,16.5 Z M11.25,14.25 L37.5,14.25 L37.5,32.25 L11.25,32.25 L11.25,14.25 Z" id="Rectangle-2" fill="#006E62" fill-rule="nonzero"></path>
+                            <rect id="Rectangle" fill="#FFFFFF" fill-rule="evenodd" x="25.5" y="25.5" width="13.5" height="11.25"></rect>
+                            <g id="check" stroke-width="1" fill-rule="evenodd" transform="translate(27.000000, 24.750000)" fill="#DD0031">
+                                <rect id="Rectangle-8-Copy-3" transform="translate(3.181981, 7.681981) rotate(45.000000) translate(-3.181981, -7.681981) " x="-0.193019485" y="6.55698052" width="6.75" height="2.25"></rect>
+                                <rect id="Rectangle-8-Copy-4" transform="translate(8.625000, 5.625000) rotate(-45.000000) translate(-8.625000, -5.625000) " x="2.25" y="4.5" width="12.75" height="2.25"></rect>
+                            </g>
+                            <polygon id="Path-3" fill="#006E62" fill-rule="nonzero" points="12.9650836 15.813426 11.625 17.3412335 24.6425734 25.5 37.0835502 17.246164 35.6943996 15.75 24.6037602 23.1079687"></polygon>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

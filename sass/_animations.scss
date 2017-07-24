@@ -1,0 +1,86 @@
+.animation-on-scroll{
+  opacity: 0;
+  -webkit-transform: translateY(20px);
+  transform: translateY(20px);
+  @include transition(all 0.8s ease-in-out);
+  &.animation-start{
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+.animation-start {
+  &.top-description {
+    @include transition(all 2s ease-in-out);
+  }
+}
+.animation-on-load {
+  opacity: 0;
+  @include transition(all .8s ease-in-out);
+  &.top-description, &.animated-container {
+    -webkit-transform: translateY(40px);
+    transform: translateY(40px);
+  }
+  &.top-description {
+    @include transition(all 1.2s 1.2s ease-in-out);
+  }
+  &#header {
+    @include transition(all 1.2s 0.4s ease-in-out);
+  }
+  &.animation-start{
+    opacity: 1;
+    &.top-description, &.animated-container {
+      -webkit-transform: translateY(0);
+      transform: translateY(0);
+    }
+  }
+}
+.appear {
+  width: 0;
+  height: 100%;
+  overflow: hidden;
+  @include transition(all .8s .8s ease-in-out);
+  &.appear-done {
+    width: 100%;
+    @include transition(all .8s .8s ease-in-out);
+  }
+}
+@-webkit-keyframes top-down {
+  0%{
+    transform: translateY(0);
+  }
+  50%{
+    transform: translateY(10px);
+  }
+  100%{
+    transform: translateY(0);
+  }
+}
+@keyframes top-down {
+  0%{
+    transform: translateY(0);
+  }
+  50%{
+    transform: translateY(10px);
+  }
+  100%{
+    transform: translateY(0);
+  }
+}
+
+@-webkit-keyframes opacity {
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+@keyframes opacity {
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}

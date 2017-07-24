@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="42px" height="42px" viewBox="0 0 42 42" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+    <title>Icon/Activity/La nostra proposta</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Assicurazione" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="SACE-Config-05a" transform="translate(-43.000000, -499.000000)">
+            <g id="Menu" transform="translate(0.000000, 65.000000)">
+                <g id="Group" transform="translate(12.000000, 146.000000)">
+                    <g id="4" transform="translate(1.000000, 288.000000)">
+                        <g id="Icon/Activity/La-nostra-proposta" transform="translate(30.000000, 0.000000)">
+                            <circle id="Oval-8" fill="#DD0031" cx="21" cy="21" r="21"></circle>
+                            <path d="M12,9 L12,33 L30.75,33 L30.75,9 L12,9 Z M9.75,6.75 L33,6.75 L33,35.25 L9.75,35.25 L9.75,6.75 Z" id="Rectangle-10" fill="#FFFFFF" fill-rule="nonzero"></path>
+                            <rect id="Rectangle-8" fill="#FFFFFF" x="15" y="12" width="12.75" height="2.25"></rect>
+                            <rect id="Rectangle-8-Copy-2" fill="#FFFFFF" x="15" y="16.5" width="12.75" height="2.25"></rect>
+                            <rect id="Rectangle-8-Copy-3" fill="#FFFFFF" x="18.75" y="24" width="9" height="2.25"></rect>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
